@@ -1,0 +1,50 @@
+header{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn{
+    border: none;
+    color: black;
+    margin: 0.5rem;
+    border-radius: 32px;
+    padding: 0.5rem;
+    box-shadow: 2px 2px  rgba(68, 68, 68, 0.066);
+    cursor: pointer;
+}
+
+.btn.edit:hover{
+    color: whitesmoke;
+    background-color: rgb(255, 170, 51);
+    transform: scale(1.09);
+}
+
+.btn.delete:hover{
+    color: whitesmoke;
+    background-color: rgb(210, 43, 43);
+    transform: scale(1.09);
+}
+
+.btn.delete.delete-active{
+    color: whitesmoke;
+    background-color: rgb(210, 43, 43);
+}
+
+.btn.edit.edit-active{
+    color: whitesmoke;
+    background-color: rgb(255, 170, 51);
+}
+
+.icon{
+    size: 3rem
+}
