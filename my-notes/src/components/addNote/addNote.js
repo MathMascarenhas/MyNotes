@@ -26,7 +26,7 @@ export function AddNote ({addNewNote}) {
 				cols='10'
 				placeholder='Type to add a note...' onChange={handleChange} value={noteText}></textarea>
             <div className="note-footer">
-                <small>{characterLimit - noteText.length}/300 Characters</small>
+                <span>{characterLimit - noteText.length}/300 Characters</span>
                 <button className='btn-save' onClick={handleSave}>Save</button>
             </div>
         </div>
