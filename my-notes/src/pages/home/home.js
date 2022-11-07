@@ -76,14 +76,14 @@ export function Home() {
     const newDate = new Date();
     const updatedNote = {
       text: updateText,
-      date: newDate.toLocaleDateString()
-    }
+      date: newDate.toLocaleDateString(),
+    };
     await api.updateNote(singleNote.id, updatedNote);
-    await getAll()
-    await handleModal()
-  }
+    await getAll();
+    await handleModal();
+  };
 
-return(
+  return (
     <>
       <div className="home">
         <Header
@@ -127,9 +127,7 @@ return(
             ></textarea>
             <div className="note-footer">
               <span>{characterLimit - updateText.length}/300 Characters</span>
-              <button
-                className="btn-edit"
-                onClick={ handleUpdate}>
+              <button className="btn-edit" onClick={handleUpdate}>
                 Update
               </button>
             </div>
@@ -137,5 +135,5 @@ return(
         )}
       </Modal>
     </>
-);
+  );
 }

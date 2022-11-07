@@ -1,22 +1,22 @@
-.note{ 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    border-radius: 10px;
-    padding: 1rem;
-    min-height: 250px;
-    min-width: 250px;
-    white-space: pre-wrap;
-    background-color: #fef68a;
+.note {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 10px;
+  padding: 1rem;
+  min-height: 250px;
+  min-width: 250px;
+  white-space: pre-wrap;
+  background-color: #fef68a;
 }
 
-span{
-    display: flex;
-    align-items: flex-start;
+span {
+  display: flex;
+  align-items: flex-start;
 }
 
-.note-footer{
-    display: flex;
-    width: 100%;
-    align-items: flex-end;
+.note-footer {
+  display: flex;
+  width: 100%;
+  align-items: flex-end;
 }

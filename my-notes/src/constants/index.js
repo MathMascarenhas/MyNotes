@@ -1,6 +1,5 @@
-
 export const ActionMode = Object.freeze({
-    NORMAL: "NORMAL",
-    UPDATE: "UPDATE",
-    DELETE: "DELETE",
+  NORMAL: "NORMAL",
+  UPDATE: "UPDATE",
+  DELETE: "DELETE",
 });

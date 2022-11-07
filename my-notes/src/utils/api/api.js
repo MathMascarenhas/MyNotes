@@ -7,7 +7,7 @@ export const api = {
       headers: new Headers({ "Content-Type": "application/json" }),
       body: JSON.stringify(note),
     });
-    return response
+    return response;
   },
   getAllNotes: async () => {
     const response = await fetch(defaultUrl + "/notes", { method: "GET" });
@@ -18,7 +18,7 @@ export const api = {
     const response = await fetch(`${defaultUrl}/notes/${id}`, {
       method: "PUT",
       headers: new Headers({ "Content-Type": "application/json" }),
-      body: JSON.stringify(note)
+      body: JSON.stringify(note),
     });
 
     const noteUpdated = await response.json();
@@ -33,5 +33,5 @@ export const api = {
     const deletedNote = response.json();
 
     return deletedNote;
-  }
-}
+  },
+};

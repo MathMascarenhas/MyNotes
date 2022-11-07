@@ -1,27 +1,24 @@
 .notes-list {
-	display: grid;
-	grid-gap: 1rem;
-	grid-template-columns: repeat(
-		auto-fill,
-		minmax(300px, 1fr)
-	);
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
 
-.btn-note{
-    background-color: hidden;
-    margin: 1rem;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
+.btn-note {
+  background-color: hidden;
+  margin: 1rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
-.btn-note:hover{
- transform: scale(1.05);
+.btn-note:hover {
+  transform: scale(1.05);
 }
- 
-.btn-add{
-	background-color: hidden;
-    margin: 1rem;
-    border: none;
-    border-radius: 10px;
+
+.btn-add {
+  background-color: hidden;
+  margin: 1rem;
+  border: none;
+  border-radius: 10px;
 }
